@@ -1,0 +1,25 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: radial-gradient(
+      1400px 700px at 20% 0%,
+      rgba(0, 212, 255, 0.2),
+      transparent 60%
+    ),
+    radial-gradient(
+      1000px 800px at 90% 20%,
+      rgba(255, 107, 157, 0.15),
+      transparent 60%
+    ),
+    linear-gradient(135deg, #0f0f1e 0%, #1a1a2e 50%, #0f0f1e 100%);
+  background-attachment: fixed;
+}
+
+#root {
+  width: min(1000px, calc(100% - 32px));
+  margin: 20px auto;
+}
